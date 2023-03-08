@@ -1,5 +1,12 @@
 # PHP SHM Drivers Bench
 
+Comparison between:
+- `ext-apcu` (https://www.php.net/manual/ru/book.apcu.php)
+- `ext-sysvshm` (https://www.php.net/manual/ru/book.sem.php)
+- `ext-shmop` (https://www.php.net/manual/ru/book.shmop.php)
+- `ext-sync` (https://www.php.net/manual/ru/book.sync.php)
+- `ext-ffi` (https://www.php.net/manual/ru/book.ffi.php)
+
 ## Installation
 
 - `docker compose build`
