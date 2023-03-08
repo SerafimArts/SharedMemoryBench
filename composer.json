@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Bench\\": "src"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "ext-sysvshm": "*",
+        "ext-shmop": "*",
+        "ext-sync": "*",
+        "ext-ffi": "*",
+        "ext-apcu": "*",
+        "phpbench/phpbench": "^1.0"
+    },
+    "scripts": {
+        "bench": "phpbench run --report=grouped"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

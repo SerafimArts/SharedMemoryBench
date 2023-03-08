@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  php:
+    build: docker/php
+    container_name: memory-bench
+    working_dir: /home/memory-bench
+    volumes:
+      - ./:/home/memory-bench
+      - ./docker/php/php.ini:/usr/local/etc/php/conf.d/local.ini
